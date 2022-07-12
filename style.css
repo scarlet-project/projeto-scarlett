@@ -29,11 +29,30 @@ nav > a{
 }
 
 nav > input{
-    padding: 7px;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 60px;
+    padding: 10px 20px;
+    flex: 1;
+    border: 0;
+    outline: none;
     margin-left: 140px;
-    border-radius: 8px;
+       
     
     
+    
+}
+
+nav > button img{
+    width: 25px;
+}
+nav > button{
+    border: 0;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    background-color: #023535;
+    cursor: pointer;
 }
 
 
